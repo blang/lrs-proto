@@ -1,0 +1,8 @@
+//package ars;
+
+option java_package = "de.benediktlang.lrsproto";
+option java_outer_classname = "LrsProto";
+message Msg {
+  required string profile = 1;
+  repeated string message = 2;
+}
